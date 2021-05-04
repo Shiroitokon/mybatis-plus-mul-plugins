@@ -201,6 +201,11 @@ public abstract class AbstractWrapper<Children extends AbstractWrapper<Children>
     }
 
 
+    public Children one() {
+        last("limit 1");
+        return typedThis;
+    }
+
     public Children comment(boolean condition, String comment) {
         if (condition) {
             this.sqlComment.setStringValue(comment);
