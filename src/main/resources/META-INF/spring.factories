@@ -1,0 +1,5 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.shiroito.mybatis_plus_mul_plugins.config.MulPluginConfig
+
+
+
